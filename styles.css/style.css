@@ -4,6 +4,67 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+           /* -------------header style ------------ */
+
+
+.headings {
+    padding-left: 10%;
+}
+
+.firsthead {
+    padding-left: 30px;
+}
+.headerinfo {
+
+    display:flex
+    
+}
+.headerinfo{
+    padding-left: 12%;
+}
+.headerinfo img {
+
+    width: 70%;
+    padding-left: 30px;
+}
+
+
+
+.pic-col {
+    width: 40%;
+    padding-left: 10%;
+    padding-bottom: 20%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
           /* Know More button style  */
 
