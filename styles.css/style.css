@@ -5,7 +5,7 @@ body{
 }
 
            /* -------------header style ------------ */
-
+.influencer {padding-left: 3%;}
 
 .headings {
     padding-left: 10%;
@@ -15,27 +15,32 @@ body{
     padding-left: 30px;
 }
 .headerinfo {
-
-    display:flex
+    display:flex;
     
 }
-.headerinfo{
-    padding-left: 12%;
+.headerinfo{ 
+    flex-direction: column;
+    align-items: center;
+   padding-right: 20%;
 }
+/*-------------------------header image styles according to divs ----------------------- */
 .headerinfo img {
 
     width: 70%;
     padding-left: 30px;
 }
 
-
+.para-first {
+  padding-right: 25%;
+}
 
 .pic-col {
     width: 40%;
-    padding-left: 10%;
+    padding-left: 95%;
     padding-bottom: 20%;
-
 }
+
+
 
 
 
