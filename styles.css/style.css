@@ -1,0 +1,22 @@
+/*-----------font style ------ */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+ 
+          /* Know More button style  */
+
+.btnonetop { 
+
+text-decoration: none;
+
+padding: 8px 30px;
+border-radius: 20px;
+background-image: linear-gradient(Aquamarine,Teal);
+color: Gold ;
+font-weight: 400;
+font-style: italic;
+font-family: cursive;
+}
+
