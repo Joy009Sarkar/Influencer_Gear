@@ -5,7 +5,8 @@ body{
 }
 
            /* -------------header style ------------ */
-.influencer {padding-left: 3%;}
+.influencer {padding-left: 1%;
+text-shadow:2px 2px 5px gray;}
 
 .headings {
     padding-left: 10%;
@@ -15,7 +16,10 @@ body{
     padding-right: 29%;
   }
   
-
+.para-first p {
+    font-weight: 700;
+    font-family: sans-serif;
+}
 
 .headerinfo {
     display:flex;
@@ -35,11 +39,12 @@ body{
         
         padding: 8px 30px;
         border-radius: 20px;
-        background-image: linear-gradient(Aquamarine,Teal);
+        background-image: linear-gradient(rgb(106, 230, 188),rgb(107, 0, 128));
         color: Gold ;
         font-weight: 400;
         font-style: italic;
         font-family: cursive;
+        box-shadow: 8px 8px 25px darkgoldenrod;
         }
         
         
@@ -109,6 +114,16 @@ body{
 
     
 }
+       /*--------------- Collection paragraph font style ------------------------------- */
+   
+    .Camera{
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+
+
+
+
 
                         /*----------------- see-more button + icon styles-------------------- */
                         
@@ -121,23 +136,59 @@ body{
         display: flex;
         justify-content: end;
         padding-right: 2%;
-        
+        font-size: large;
+        text-shadow: 2px 2px 5px rgba(97, 91, 93, 0.945);
         }        
 
-           /* ---------right arrow icon------- */
 
-        .fa-chevron-circle-right{
-            padding-left: 3px;
-            padding-top: 1px;
+        /*--------------------- parent div -------------------- */
+
+
+        .parentdiv{
+            display: flex;
+            padding-top: 10%;
+        ;
+        }
+        .parentdiv img{width: 100%;}
+        
+        
+     
+        
+                    .pic---col{ width: 35%;
+                        padding-left: 10%;
+                      padding-top: 2%;
+                      border-radius: 5px;
+        
+                    }
+        
+        .txt-col{width: 20%;
+            padding-left: 30%;
+          
+        
         }
 
+.txt-col p {
+    font-weight: 700;
+    font-family: sans-serif;
+}
 
+/* ---------------------Footer style ---------------------- */
 
+.footerdiv{display: flex;
+    text-align: center;
+padding-left: 41%;
+font: 1em sans-serif;
+font-size: small;
+}
 
-
-
-
-
-
-
-      
+.foothead {
+    padding-left: 41%;
+    padding-top: 3%;
+}
+.social-icons {
+    padding-left: 44%;
+    font-size: x-large;
+}
+      .father {
+          background-color: midnightblue;
+      }
