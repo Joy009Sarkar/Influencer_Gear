@@ -10,34 +10,90 @@ body{
 .headings {
     padding-left: 10%;
 }
+.para-first {
+    
+    padding-right: 29%;
+  }
+  
 
-.firsthead {
-    padding-left: 30px;
-}
+
 .headerinfo {
     display:flex;
+    flex-direction: column;
     
 }
 .headerinfo{ 
-    flex-direction: column;
-    align-items: center;
-   padding-right: 20%;
+    
+    
+   padding-left: 9%;
+
 }
+    /* Know More button style  */
+
+    .btnonetop { 
+        text-decoration: none;
+        
+        padding: 8px 30px;
+        border-radius: 20px;
+        background-image: linear-gradient(Aquamarine,Teal);
+        color: Gold ;
+        font-weight: 400;
+        font-style: italic;
+        font-family: cursive;
+        }
+        
+        
 /*-------------------------header image styles according to divs ----------------------- */
 .headerinfo img {
-
-    width: 70%;
-    padding-left: 30px;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    
 }
 
-.para-first {
-  padding-right: 25%;
-}
 
-.pic-col {
-    width: 40%;
-    padding-left: 95%;
+.pic-col {width: 30%;
+    padding-left: 60%;
     padding-bottom: 20%;
+    
+}
+
+ /* ------------------main style------------- */
+
+
+
+.popular {
+    padding-left: 37%;
+    padding-bottom: 7%;
+
+}
+
+/*------------ collections styles 
+---------------------------------------- */
+.collection .collection-banner img{
+
+    width: 300px;
+height: 256px;}
+
+
+.collection-info {
+    display: flex;
+    align-items: center;
+}
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.ccontainer img{ width: 50%;
+    
+   
+}
+
+.collection-detail {
+    padding-left: 3%;
+    
 }
 
 
@@ -59,30 +115,4 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
- 
-          /* Know More button style  */
-
-.btnonetop { 
-
-text-decoration: none;
-
-padding: 8px 30px;
-border-radius: 20px;
-background-image: linear-gradient(Aquamarine,Teal);
-color: Gold ;
-font-weight: 400;
-font-style: italic;
-font-family: cursive;
-}
-
+      
